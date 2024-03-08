@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome to Our Landing Page!</h1>
+        <p>This is a simple landing page built using React.</p>
+        <button>Contact Us</button>
       </header>
+      <section className="Features">
+        <h2>Features</h2>
+        <ul>
+          <li>Responsive Design</li>
+          <li>Easy to Customize</li>
+          <li>Fast Loading</li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2024 Your Company Name</p>
+      </footer>
     </div>
   );
 }
